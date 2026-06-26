@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
 
       - name: Set up Docker
         run: docker --version
@@ -24,4 +24,3 @@ jobs:
 
       - name: Run Container
         run: docker run myapp
-        
